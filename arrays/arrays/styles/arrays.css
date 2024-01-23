@@ -1,0 +1,38 @@
+/*
+
+Name: Matthew Lattin
+Date: 03/17/2021
+
+
+*/
+body{
+	background-color: rgb(200, 200, 200);
+	text-align: center;
+}
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+td {
+	border: 2px dashed black;
+}
+div{
+	border: 2px solid black;
+	box-shadow: 10px 10px 15px 5px black;
+}
+
+footer{
+	text-align: center;
+}
+
+h1 {
+	color: blue;
+}
+h2 {
+	margin: 20px;
+}
+ul{
+	list-style-type: none;
+}

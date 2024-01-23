@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html  lang="en">
+	<head>
+	<meta charset="UTF-8"/>
+	<title>Pet Competition</title>
+	<link href="form.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>	
+			<p>
+				In this event pets can enter into different competitions.
+				They can enter a cuteness contest, a singing contest,and 
+				a tricks contest where they can participate in different
+				events. There is a catching event, a roll over event, and
+				an obstacle course
+			</p>
+		</header>
+		<form>
+			<fieldset>
+				<legend>Pet Info</legend>
+				<label for="petName">Name of Pet</label>
+				<input name="name" id="petName" type="text">
+				<label for="petBirthday">Birthday</label>
+				<input name="birthday" id="petBirthday" type="date"/>
+				
+				<input name="typeOfPet" id="cat" type="radio"/>
+				<label for="cat">Cat</label>
+				<input name="typeOfPet" id="dog" type="radio"/>
+				<label for="dog">Dog</label>
+				<input name="typeOfPet" id="reptile" type="radio"/>
+				<label for="reptile">Reptile</label>
+				<input name="typeOfPet" id="bird" type="radio"/>
+				<label for="bird">Bird</label>
+				<input name="typeOfPet" id="rodent" type="radio"/>
+				<label for="rodent">Rodent</label>
+				<div id="petBiography"> 
+				<label for="petBio">Write a short biography of
+					your pet.
+				</label>
+				<textarea name="petBio" id="petBio" rows="15" cols="250">
+				</textarea>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Contact Info</legend>
+				<label for="ownerName">Enter your name</label>
+				<input name="ownerName" id="ownerName" type="text" required/>
+				<label for="phone">Phone Number</label>
+				<input name="phone" id="phone" type="tel" required 
+				pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"/>
+				<label for="email">Email</label>
+				<input name="email" id="email" type="email" required/>
+			</fieldset>
+			<fieldset>
+				<legend>Competition Entry</legend>
+				<div>
+				<label for="sing">Singing Pet Competition</label>
+				<input name="comp" id="sing" type="checkbox"/>
+				</div>
+				<div>
+				<label for="cute">Cutest Pet Competition</label>
+				<input name="comp" id="cute" type="checkbox"/>
+				</div>
+				<div>
+				<label for="tricks">Pet Tricks Competition</label>
+				<select name="trickList" id="tricklist">
+					<option value="obstacle course">Obstacle Course</option>
+					<option value="catching">Frisbee/ball/other catching</option>
+					<option value="rollover">Roll Over/Play Dead</option>
+					<option value="other">Other</option>
+				</select>
+				
+				<input name="comp" id="tricks" type="checkbox"/>
+				<img src="images/puppy-1539827_640.png" alt="dog" 
+				width="150" height="230"/>
+				</div>
+				<div>
+				<label for="petNames">Name of Pet</label>
+				<input name="name" id="petNames" type="text"/>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Boarding</legend>
+				<label for="days">How many days of boarding do you need?</label>
+				<input name="days" id="days" type="number" min="0" max="3"/>
+				<label for="kennel">How big does the kennel need to be in inches?</label>
+				0
+				<input name="kennel" id="kennel" type="range" min="0" max="48" step="8"/>
+				48
+				<img src="images/animal-2025662_640.png" alt="doghouse" 
+				width="63" height="64"/>
+			</fieldset>
+			<div>
+				<input type="submit" value="Submit your responses"/>
+			</div>
+			<div>
+				<input type="reset" value="Clear the Form"/>
+			</div>
+		</form>
+		<footer>
+		
+		</footer>
+	</body>
+</html>

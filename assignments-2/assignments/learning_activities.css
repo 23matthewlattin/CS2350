@@ -1,0 +1,11 @@
+html {
+	background-color: rgb(200, 220, 225);
+}
+body{
+	background: url("images/knowledge.png") top right / 20% repeat-y content-box,
+	url("images/question.png") center / 25% repeat-x content-box;
+}
+
+img {
+	opacity: 0.5;
+}

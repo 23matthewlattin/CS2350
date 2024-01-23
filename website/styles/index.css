@@ -1,0 +1,22 @@
+img {
+	float: left;
+}
+figure {
+	clear: both;
+	float: right;
+}
+#assignments a:link {
+	color: white;
+}
+#assignments a:visited{
+	color: yellow;
+}
+#assignments a:hover {
+	color: pink;
+}
+#assignments a:active {
+		color: orange;
+}
+
+
+

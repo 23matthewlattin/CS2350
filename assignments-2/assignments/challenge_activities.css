@@ -1,0 +1,29 @@
+body {
+	perspective: 900px;
+}
+article {
+	background: url("images/challenge.png") top right / 25% no-repeat content-box;
+}
+
+article:nth-of-type(odd) {
+	box-shadow: rgb(71, 71, 71) 10px 10px 10px;
+}
+article:nth-of-type(even) {
+	box-shadow: rgb(71, 71, 71) -10px -10px 10px;
+	
+}
+article h2 {
+	text-shadow: rgb(100,100,100) 15px 15x 15px;
+	transform: rotateX(5deg);
+}
+
+article#challenge1 {
+	text-shadow: rgb(255,255,255) 15px 15px 5px;
+}
+
+article#challenge2 {
+	background: linear-gradient(300deg, rgb(71, 71, 71),
+	rgb(200, 0, 200)63%);
+	padding: 25px;
+	transform: translateY(10px)rotateX(5deg);
+}

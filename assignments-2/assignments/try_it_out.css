@@ -1,0 +1,21 @@
+body {
+	background: radial-gradient(rgb(150, 150, 150), rgb(100, 200, 200), 
+		rgb(225, 225, 225));
+}
+
+dl dt {
+	transform: translateX(15px) rotateY(5deg) rotateX(5deg) skew(5deg);
+	border: 3px solid;
+	border-image: url("images/knowledge.png") 35 round;
+	border-radius: 50px;
+}
+dl dd {
+	transform: translateX(15px) rotateY(5deg) rotateX(5deg) skew(5deg);
+	border: 1px dashed blue;
+	border-radius: 5px;
+}
+
+img{
+	-webkit-filter: brightness(0.75);
+	filter: brightness(0.75);
+}

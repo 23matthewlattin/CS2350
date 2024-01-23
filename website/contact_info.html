@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="styles/global.css" rel="stylesheet">
+	<meta charset="utf-8"/>
+	<title>Contact Info</title>
+</head>
+<body>
+<nav>
+	<a href="../../index.html">Homepage</a>
+	<a href="about_me.html">About Me</a>
+	<a href="my_family.html">My Family</a>
+	<a href="my_resume.html">My Resume</a>
+	<a href="hobbies.html">Hobbies</a>
+	<a href="contact_info.html">Contact Info</a>
+</nav>
+<form id="form"
+            action="https://icarus.cs.weber.edu/~linda/cs2350/submit_pet1.php"
+            method="POST">
+<fieldset>
+<legend>Contact Info</legend>
+<label for="firstName">First Name</label>
+<input name="firstName" id="firstName" type="text" required>
+<label for="lastName">Last Name</label>
+<input name="lastName" id="lastName" type="text" required>
+<label for="email">Email</label>
+<input name="email" id="email" type="email" required>
+<label for="phone">Phone Number</label>
+<input name="phone" id="phone" type="tel" required>
+</fieldset>
+<fieldset>
+<legend>Best Hobby</legend>
+<label for="videoGames">Video Games</label>
+<input name="bestHobby" id="videoGames" type="radio"><br>
+<label for="reading">Reading</label>
+<input name="bestHobby" id="reading" type="radio"><br>
+<label for="music">Listening to Music</label>
+<input name="bestHobby" id="music" type="radio"><br>
+<label for="other">Other</label>
+<input name="bestHobby" id="other" type="radio">
+<input name="submit" type="submit" id="submit">
+</fieldset>
+</form>
+</body>
+</html>
